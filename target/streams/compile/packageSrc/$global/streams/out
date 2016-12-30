@@ -1,0 +1,35 @@
+[0m[[0minfo[0m] [0mPackaging C:\HHHistory_Genesis\ute-hhhistory-svc\target\scala-2.11\ute-hhhistory-svc_2.11-0.1-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\domain\HHBill.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\domain\HHBill.java[0m
+[0m[[0mdebug[0m] [0m	HelloAkkaScala.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\scala\HelloAkkaScala.scala[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\exception\HHHistoryServiceErrorCodes.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\exception\HHHistoryServiceErrorCodes.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\actors\frontend\HHHistoryServiceActor.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\actors\frontend\HHHistoryServiceActor.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\actors\messages\HHHistoryRequest.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\actors\messages\HHHistoryRequest.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\common\CameoStart.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\common\CameoStart.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\domain\HHHistoryData.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\domain\HHHistoryData.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\exception\HHErrorDataResponse.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\exception\HHErrorDataResponse.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\service\HHHistoryService.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\service\HHHistoryService.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\cassandra\CassandraSessionProvider.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\cassandra\CassandraSessionProvider.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\actors\frontend\HHHistoryCameoActor.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\actors\frontend\HHHistoryCameoActor.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\exception\HHErrorConstants.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\exception\HHErrorConstants.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\cassandra\CassandraConfig.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\cassandra\CassandraConfig.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\domain\HHSession.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\domain\HHSession.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\actors\frontend\CassandraReaderActor.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\actors\frontend\CassandraReaderActor.java[0m
+[0m[[0mdebug[0m] [0m	com\rogers\ute\hhHistoryService\service\impl\HHHistoryServiceImpl.java[0m
+[0m[[0mdebug[0m] [0m	  C:\HHHistory_Genesis\ute-hhhistory-svc\src\main\java\com\rogers\ute\hhHistoryService\service\impl\HHHistoryServiceImpl.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

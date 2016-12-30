@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.rogers.ute"
+		module="ute-hhhistory-svc$sources_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161229071553"/>
+	<dependencies>
+		<module organisation="com.rogers.ute" name="ute-billing-account-service_2.11">
+			<revision name="0.1.10-SNAPSHOT" status="integration" pubdate="20161125125031" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="101">
+				<metadata-artifact status="no" details="" size="4724" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-billing-account-service_2.11\ivy-0.1.10-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/snapshots/com/rogers/ute/ute-billing-account-service_2.11/0.1.10-SNAPSHOT/ute-billing-account-service_2.11-0.1.10-SNAPSHOT.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.1.10-SNAPSHOT" rev-constraint-default="0.1.10-SNAPSHOT" rev-constraint-dynamic="0.1.10-SNAPSHOT" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ute-billing-account-service_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="157753" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-billing-account-service_2.11\srcs\ute-billing-account-service_2.11-0.1.10-SNAPSHOT-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/snapshots/com/rogers/ute/ute-billing-account-service_2.11/0.1.10-SNAPSHOT/ute-billing-account-service_2.11-0.1.10-SNAPSHOT-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute" name="resp-esb-client-jar_2.11">
+			<revision name="3.2.1" status="release" pubdate="20160810111832" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="105">
+				<metadata-artifact status="no" details="" size="3336" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\resp-esb-client-jar_2.11\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/resp-esb-client-jar_2.11/3.2.1/resp-esb-client-jar_2.11-3.2.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="resp-esb-client-jar_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4189000" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\resp-esb-client-jar_2.11\srcs\resp-esb-client-jar_2.11-3.2.1-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/resp-esb-client-jar_2.11/3.2.1/resp-esb-client-jar_2.11-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute" name="ute-commons_2.11">
+			<revision name="0.3.11" status="release" pubdate="20161101221514" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="100">
+				<metadata-artifact status="no" details="" size="3134" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-commons_2.11\ivy-0.3.11.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/ute-commons_2.11/0.3.11/ute-commons_2.11-0.3.11.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.3.11" rev-constraint-default="0.3.11" rev-constraint-dynamic="0.3.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ute-commons_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21890" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-commons_2.11\srcs\ute-commons_2.11-0.3.11-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/ute-commons_2.11/0.3.11/ute-commons_2.11-0.3.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute.universal-logging" name="universal-logging-core_2.11">
+			<revision name="0.1.6" status="release" pubdate="20161004224348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="99">
+				<metadata-artifact status="no" details="" size="3395" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute.universal-logging\universal-logging-core_2.11\ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/universal-logging/universal-logging-core_2.11/0.1.6/universal-logging-core_2.11-0.1.6.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="universal-logging-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10075" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute.universal-logging\universal-logging-core_2.11\srcs\universal-logging-core_2.11-0.1.6-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/universal-logging/universal-logging-core_2.11/0.1.6/universal-logging-core_2.11-0.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute" name="async-soap-client_2.11">
+			<revision name="0.3.5" status="release" pubdate="20161014213415" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="95">
+				<metadata-artifact status="no" details="" size="4836" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\async-soap-client_2.11\ivy-0.3.5.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/async-soap-client_2.11/0.3.5/async-soap-client_2.11-0.3.5.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.3.5" rev-constraint-default="0.3.5" rev-constraint-dynamic="0.3.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="async-soap-client_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29413" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\async-soap-client_2.11\srcs\async-soap-client_2.11-0.3.5-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/async-soap-client_2.11/0.3.5/async-soap-client_2.11-0.3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute" name="concurrency-utils_2.11">
+			<revision name="0.0.4" status="release" pubdate="20160119001855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+				<metadata-artifact status="no" details="" size="2980" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\concurrency-utils_2.11\ivy-0.0.4.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/concurrency-utils_2.11/0.0.4/concurrency-utils_2.11-0.0.4.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.0.4" rev-constraint-default="0.0.4" rev-constraint-dynamic="0.0.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="concurrency-utils_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3147" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\concurrency-utils_2.11\srcs\concurrency-utils_2.11-0.0.4-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/concurrency-utils_2.11/0.0.4/concurrency-utils_2.11-0.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.1" status="release" pubdate="20160719185434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="81">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57656" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-entitymanager">
+			<revision name="4.3.6.Final" status="release" pubdate="20140717102900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="80">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="3776" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-entitymanager\ivy-4.3.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hibernate/hibernate-entitymanager/4.3.6.Final/hibernate-entitymanager-4.3.6.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.3.6.Final" rev-constraint-default="4.3.6.Final" rev-constraint-dynamic="4.3.6.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-entitymanager" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="468654" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-entitymanager\srcs\hibernate-entitymanager-4.3.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hibernate/hibernate-entitymanager/4.3.6.Final/hibernate-entitymanager-4.3.6.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-mapping">
+			<revision name="3.1.0" status="release" pubdate="20160727171126" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="70">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6982" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.datastax.cassandra\cassandra-driver-mapping\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-mapping/3.1.0/cassandra-driver-mapping-3.1.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-driver-mapping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50237" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.datastax.cassandra\cassandra-driver-mapping\srcs\cassandra-driver-mapping-3.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-mapping/3.1.0/cassandra-driver-mapping-3.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis2" name="axis2-adb">
+			<revision name="1.6.2" status="release" pubdate="20120417173136" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://axis.apache.org/axis2/java/core/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<metadata-artifact status="no" details="" size="27877" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis2\axis2-adb\ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/axis2/axis2-adb/1.6.2/axis2-adb-1.6.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="axis2-adb" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561992" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis2\axis2-adb\srcs\axis2-adb-1.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/axis2/axis2-adb/1.6.2/axis2-adb-1.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis2" name="axis2-kernel">
+			<revision name="1.6.2" status="release" pubdate="20120417173015" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://axis.apache.org/axis2/java/core/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<metadata-artifact status="no" details="" size="30005" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis2\axis2-kernel\ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/axis2/axis2-kernel/1.6.2/axis2-kernel-1.6.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="axis2-kernel" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="921586" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis2\axis2-kernel\srcs\axis2-kernel-1.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/axis2/axis2-kernel/1.6.2/axis2-kernel-1.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.neethi" name="neethi">
+			<revision name="3.0.2" status="release" pubdate="20120408074016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ws.apache.org/neethi/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="106">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5076" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.neethi\neethi\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/neethi/neethi/3.0.2/neethi-3.0.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="neethi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61401" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.neethi\neethi\srcs\neethi-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/neethi/neethi/3.0.2/neethi-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="wsdl4j" name="wsdl4j">
+			<revision name="1.6.2" status="release" pubdate="20080831171606" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sf.net/projects/wsdl4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="CPL" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2360" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\wsdl4j\wsdl4j\ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wsdl4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="161406" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\wsdl4j\wsdl4j\srcs\wsdl4j-1.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute" name="ute-actor-commons_2.11">
+			<revision name="0.0.10" status="release" pubdate="20160310150059" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<metadata-artifact status="no" details="" size="3272" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-actor-commons_2.11\ivy-0.0.10.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/ute-actor-commons_2.11/0.0.10/ute-actor-commons_2.11-0.0.10.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.0.10" rev-constraint-default="0.0.10" rev-constraint-dynamic="0.0.10" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ute-actor-commons_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4021" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute\ute-actor-commons_2.11\srcs\ute-actor-commons_2.11-0.0.10-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/ute-actor-commons_2.11/0.0.10/ute-actor-commons_2.11-0.0.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec">
+			<revision name="1.1" status="release" pubdate="20070418114031" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<metadata-artifact status="no" details="" size="5040" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1/geronimo-jta_1.1_spec-1.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21857" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1/geronimo-jta_1.1_spec-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-discovery" name="commons-discovery">
+			<revision name="0.5" status="release" pubdate="20110501192824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/discovery/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="no" details="" size="6442" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-discovery\commons-discovery\ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-discovery/commons-discovery/0.5/commons-discovery-0.5.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-discovery" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="81725" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-discovery\commons-discovery\srcs\commons-discovery-0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-discovery/commons-discovery/0.5/commons-discovery-0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421202957" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6412" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-java_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java_2.11/2.3.8/play-java_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-java_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38407" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-java_2.11\srcs\play-java_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java_2.11/2.3.8/play-java_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.2.0.Final" status="release" pubdate="20141111065200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="Apache License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9463" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.logging\jboss-logging\ivy-3.2.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jboss/logging/jboss-logging/3.2.0.Final/jboss-logging-3.2.0.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.2.0.Final" rev-constraint-default="3.2.0.Final" rev-constraint-dynamic="3.2.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="51702" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.logging\jboss-logging\srcs\jboss-logging-3.2.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jboss/logging/jboss-logging/3.2.0.Final/jboss-logging-3.2.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-validator">
+			<revision name="5.0.3.Final" status="release" pubdate="20140128154200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="104">
+				<metadata-artifact status="no" details="" size="24030" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-validator\ivy-5.0.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3.Final" rev-constraint-default="5.0.3.Final" rev-constraint-dynamic="5.0.3.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-validator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="504486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-validator\srcs\hibernate-validator-5.0.3.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml" name="classmate">
+			<revision name="1.0.0" status="release" pubdate="20131016073800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/cowtowncoder/java-classmate" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3294" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml\classmate\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/classmate/1.0.0/classmate-1.0.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="classmate" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43572" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml\classmate\srcs\classmate-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/classmate/1.0.0/classmate-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.1.0.Final" status="release" pubdate="20130410183303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3108" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.validation\validation-api\ivy-1.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="validation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="94671" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.validation\validation-api\srcs\validation-api-1.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.13" status="release" pubdate="20130905233959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3469" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.yaml\snakeyaml\ivy-1.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.13/snakeyaml-1.13.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="173523" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.yaml\snakeyaml\srcs\snakeyaml-1.13-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.13/snakeyaml-1.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421213527" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="7611" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.11/2.3.8/play_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385913" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play_2.11\srcs\play_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play_2.11/2.3.8/play_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.transaction" name="jta">
+			<revision name="1.1" status="release" pubdate="20081028065721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.transaction\jta\srcs\jta-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.6" status="release" pubdate="20140206041000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<metadata-artifact status="no" details="" size="4836" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4806" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\jul-to-slf4j\srcs\jul-to-slf4j-1.7.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.6/jul-to-slf4j-1.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.netty" name="netty-http-pipelining">
+			<revision name="1.1.2" status="release" pubdate="20150421203439" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/netty-http-pipelining" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2778" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/netty/netty-http-pipelining/1.1.2/netty-http-pipelining-1.1.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-http-pipelining" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3774" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\srcs\netty-http-pipelining-1.1.2-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/netty/netty-http-pipelining/1.1.2/netty-http-pipelining-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416145200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421211246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4440" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.11/2.3.8/play-json_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28923" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-json_2.11\srcs\play-json_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.11/2.3.8/play-json_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.1" status="release" pubdate="20140520133200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.1" rev-constraint-default="2.11.1" rev-constraint-dynamic="2.11.1" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.1/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="555369" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.6" status="release" pubdate="20140128000700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="107">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6189" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.joda\joda-convert\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.6/joda-convert-1.6.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36436" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.6/joda-convert-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421213552" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2577" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.11/2.3.8/play-datacommons_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1455" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\srcs\play-datacommons_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.11/2.3.8/play-datacommons_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421204811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2574" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.11/2.3.8/play-functional_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9504" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.11/2.3.8/play-functional_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="build-link">
+			<revision name="2.3.8" status="release" pubdate="20150421214052" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\build-link\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/build-link/2.3.8/build-link-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7619" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\build-link\srcs\build-link-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/build-link/2.3.8/build-link-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-exceptions">
+			<revision name="2.3.8" status="release" pubdate="20150421213935" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="103">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-exceptions/2.3.8/play-exceptions-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2256" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-exceptions\srcs\play-exceptions-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-exceptions/2.3.8/play-exceptions-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
+			<revision name="2.3.4" status="release" pubdate="20140630173200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3109" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.11/2.3.4/akka-slf4j_2.11-2.3.4.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1971" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\srcs\akka-slf4j_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.11/2.3.4/akka-slf4j_2.11-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2" status="release" pubdate="20080831171605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/fileupload/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="3431" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-fileupload\commons-fileupload\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68411" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-fileupload\commons-fileupload\srcs\commons-fileupload-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.2/commons-fileupload-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.axis" name="axis">
+			<revision name="1.4" status="release" pubdate="20060423104721" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<metadata-artifact status="no" details="" size="2267" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis\axis\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/axis/axis/1.4/axis-1.4.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="axis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1517119" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.axis\axis\srcs\axis-1.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/axis/axis/1.4/axis-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate" name="hibernate-core">
+			<revision name="4.3.6.Final" status="release" pubdate="20140717102900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="3874" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-core\ivy-4.3.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hibernate/hibernate-core/4.3.6.Final/hibernate-core-4.3.6.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.3.6.Final" rev-constraint-default="4.3.6.Final" rev-constraint-dynamic="4.3.6.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4771640" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate\hibernate-core\srcs\hibernate-core-4.3.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hibernate/hibernate-core/4.3.6.Final/hibernate-core-4.3.6.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss" name="jandex">
+			<revision name="1.1.0.Final" status="release" pubdate="20130523012722" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="AL 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6613" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss\jandex\ivy-1.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jandex" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50584" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss\jandex\srcs\jandex-1.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.1-api">
+			<revision name="1.0.0.Final" status="release" pubdate="20130726223144" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Eclipse Public License (EPL), Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License (EDL), Version 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2664" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\ivy-1.0.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.0.Final" rev-constraint-default="1.0.0.Final" rev-constraint-dynamic="1.0.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-jpa-2.1-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="199617" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\srcs\hibernate-jpa-2.1-api-1.0.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.common" name="hibernate-commons-annotations">
+			<revision name="4.0.5.Final" status="release" pubdate="20140712035300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="2834" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\ivy-4.0.5.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.5.Final" rev-constraint-default="4.0.5.Final" rev-constraint-dynamic="4.0.5.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-commons-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="65779" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.hibernate.common\hibernate-commons-annotations\srcs\hibernate-commons-annotations-4.0.5.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging-annotations">
+			<revision name="1.2.0.Beta1" status="release" pubdate="20130619051159" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<metadata-artifact status="no" details="" size="9695" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\ivy-1.2.0.Beta1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.0.Beta1" rev-constraint-default="1.2.0.Beta1" rev-constraint-dynamic="1.2.0.Beta1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jboss-logging-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14314" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.logging\jboss-logging-annotations\srcs\jboss-logging-annotations-1.2.0.Beta1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.3.2" status="release" pubdate="20140302084300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<metadata-artifact status="no" details="" size="7316" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="753006" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.3.2" status="release" pubdate="20140301070800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<metadata-artifact status="no" details="" size="5531" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="233763" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.9.3.Final" status="release" pubdate="20140807002900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7146" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty\ivy-3.9.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.9.3.Final/netty-3.9.3.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.9.3.Final" rev-constraint-default="3.9.3.Final" rev-constraint-dynamic="3.9.3.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131879" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty\srcs\netty-3.9.3.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.9.3.Final/netty-3.9.3.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.6" status="release" pubdate="20140206040900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<metadata-artifact status="no" details="" size="4797" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23044" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\jcl-over-slf4j\srcs\jcl-over-slf4j-1.7.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.8.14" status="release" pubdate="20140923225600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6976" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.ning\async-http-client\ivy-1.8.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/async-http-client/1.8.14/async-http-client-1.8.14.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.8.14" rev-constraint-default="1.8.14" rev-constraint-dynamic="1.8.14" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="async-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="313318" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.ning\async-http-client\srcs\async-http-client-1.8.14-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/async-http-client/1.8.14/async-http-client-1.8.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20080831171526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3206" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-httpclient\commons-httpclient\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="387357" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-httpclient\commons-httpclient\srcs\commons-httpclient-3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.11">
+			<revision name="2.3.8" status="release" pubdate="20150421204420" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3360" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.3.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.11/2.3.8/play-iteratees_2.11-2.3.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.8" rev-constraint-default="2.3.8" rev-constraint-dynamic="2.3.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32929" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\srcs\play-iteratees_2.11-2.3.8-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.11/2.3.8/play-iteratees_2.11-2.3.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.11">
+			<revision name="0.7" status="release" pubdate="20140418101400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2569" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-stm\scala-stm_2.11\ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-stm\scala-stm_2.11\srcs\scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="twirl-api_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140615154100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2986" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\twirl-api_2.11\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/twirl-api_2.11/1.0.2/twirl-api_2.11-1.0.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="twirl-api_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6042" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.play\twirl-api_2.11\srcs\twirl-api_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/twirl-api_2.11/1.0.2/twirl-api_2.11-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.1" status="release" pubdate="20140416145100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109171" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.1/scala-xml_2.11-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.ws.rs" name="jsr311-api">
+			<revision name="1.0" status="release" pubdate="20081007063435" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jsr311.dev.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="                 CDDL License             " url="http://www.opensource.org/licenses/cddl1.php"/>
+				<metadata-artifact status="no" details="" size="2815" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.ws.rs\jsr311-api\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr311-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="67376" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.ws.rs\jsr311-api\srcs\jsr311-api-1.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="2.0.3" status="release" pubdate="20131231125600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/jsr-305/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2424" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="362" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-2.0.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ws.commons.axiom" name="axiom-impl">
+			<revision name="1.2.13" status="release" pubdate="20120403014711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ws.apache.org/axiom/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<metadata-artifact status="no" details="" size="10570" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.axiom\axiom-impl\ivy-1.2.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/ws/commons/axiom/axiom-impl/1.2.13/axiom-impl-1.2.13.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.13" rev-constraint-default="1.2.13" rev-constraint-dynamic="1.2.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="axiom-impl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105396" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.axiom\axiom-impl\srcs\axiom-impl-1.2.13-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/ws/commons/axiom/axiom-impl/1.2.13/axiom-impl-1.2.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ws.commons.axiom" name="axiom-api">
+			<revision name="1.2.13" status="release" pubdate="20120403014304" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ws.apache.org/axiom/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="11945" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.axiom\axiom-api\ivy-1.2.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/ws/commons/axiom/axiom-api/1.2.13/axiom-api-1.2.13.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.13" rev-constraint-default="1.2.13" rev-constraint-dynamic="1.2.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="axiom-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="495479" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.axiom\axiom-api\srcs\axiom-api-1.2.13-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/ws/commons/axiom/axiom-api/1.2.13/axiom-api-1.2.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107193923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<metadata-artifact status="no" details="" size="5977" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.james\apache-mime4j-core\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="98287" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.james\apache-mime4j-core\srcs\apache-mime4j-core-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-stax-api_1.0_spec">
+			<revision name="1.0.1" status="release" pubdate="20071227085214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<metadata-artifact status="no" details="" size="6081" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-stax-api_1.0_spec\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="geronimo-stax-api_1.0_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32471" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-stax-api_1.0_spec\srcs\geronimo-stax-api_1.0_spec-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jaxen" name="jaxen">
+			<revision name="1.1.3" status="release" pubdate="20111108035013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jaxen.codehaus.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="The Werken Company License" url="http://jaxen.codehaus.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3696" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\jaxen\jaxen\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jaxen/jaxen/1.1.3/jaxen-1.1.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxen" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413685" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\jaxen\jaxen\srcs\jaxen-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jaxen/jaxen/1.1.3/jaxen-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-servlet-api">
+			<revision name="8.0.5" status="release" pubdate="20140324234900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="         Apache License, Version 2.0 and         Common Development And Distribution License (CDDL) Version 1.0       " url="         http://www.apache.org/licenses/LICENSE-2.0.txt and         http://www.opensource.org/licenses/cddl1.txt       "/>
+				<metadata-artifact status="no" details="" size="2573" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\ivy-8.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="8.0.5" rev-constraint-default="8.0.5" rev-constraint-dynamic="8.0.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="tomcat-servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="303695" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\srcs\tomcat-servlet-api-8.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="3.1.0" status="release" pubdate="20160727171043" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8265" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="593225" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\srcs\cassandra-driver-core-3.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-posix">
+			<revision name="3.0.27" status="release" pubdate="20160119120156" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Common Public License - v 1.0" url="http://www-128.ibm.com/developerworks/library/os-cpl.html"/>
+				<license name="GNU General Public License Version 2" url="http://www.gnu.org/copyleft/gpl.html"/>
+				<license name="GNU Lesser General Public License Version 2.1" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3788" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-posix\ivy-3.0.27.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.0.27" rev-constraint-default="3.0.27" rev-constraint-dynamic="3.0.27" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jnr-posix" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110297" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-posix\srcs\jnr-posix-3.0.27-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-ffi">
+			<revision name="2.0.7" status="release" pubdate="20151112144154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-ffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4970" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-ffi\ivy-2.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.0.7" rev-constraint-default="2.0.7" rev-constraint-dynamic="2.0.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jnr-ffi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="352057" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-ffi\srcs\jnr-ffi-2.0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-x86asm">
+			<revision name="1.0.2" status="release" pubdate="20120406225021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-x86asm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-x86asm\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jnr-x86asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171252" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-x86asm\srcs\jnr-x86asm-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="5.0.3" status="release" pubdate="20140524043053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
+				<metadata-artifact status="no" details="" size="4454" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-util\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-util\srcs\asm-util-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="5.0.3" status="release" pubdate="20140524043023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<metadata-artifact status="no" details="" size="4462" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-analysis\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-analysis\srcs\asm-analysis-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="5.0.3" status="release" pubdate="20140524043033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<metadata-artifact status="no" details="" size="4460" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-commons\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-commons\srcs\asm-commons-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="5.0.3" status="release" pubdate="20140524043043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="no" details="" size="4449" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-tree\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm-tree\srcs\asm-tree-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.3" status="release" pubdate="20140524043012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<metadata-artifact status="no" details="" size="3795" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.ow2.asm\asm\srcs\asm-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jffi">
+			<revision name="1.2.10" status="release" pubdate="20151106141808" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3533" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jffi\ivy-1.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.10" rev-constraint-default="1.2.10" rev-constraint-dynamic="1.2.10" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jffi" type="jar" ext="jar" extra-classifier="native" status="no" details="" size="456199" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jffi\jars\jffi-1.2.10-native.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.dropwizard.metrics" name="metrics-core">
+			<revision name="3.1.2" status="release" pubdate="20150426092900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52914" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.dropwizard.metrics\metrics-core\srcs\metrics-core-3.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607141239" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<metadata-artifact status="no" details="" size="17769" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-handler\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.37.Final/netty-handler-4.0.37.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="187099" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-handler\srcs\netty-handler-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.37.Final/netty-handler-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607141122" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<metadata-artifact status="no" details="" size="17444" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-codec\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.37.Final/netty-codec-4.0.37.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134477" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-codec\srcs\netty-codec-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.37.Final/netty-codec-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607141047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<metadata-artifact status="no" details="" size="16766" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-transport\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.37.Final/netty-transport-4.0.37.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="247682" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-transport\srcs\netty-transport-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.37.Final/netty-transport-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-ws-metadata_2.0_spec">
+			<revision name="1.1.2" status="release" pubdate="20080206202654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<metadata-artifact status="no" details="" size="7035" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-ws-metadata_2.0_spec\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.2/geronimo-ws-metadata_2.0_spec-1.1.2.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="geronimo-ws-metadata_2.0_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13437" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-ws-metadata_2.0_spec\srcs\geronimo-ws-metadata_2.0_spec-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.2/geronimo-ws-metadata_2.0_spec-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831070233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="15">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2945" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12469" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\srcs\scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20151123133311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="35">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2642" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="file:////C:/dev/typesafe-activator-1.3.7/activator-dist-1.3.7/repository/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607140927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<metadata-artifact status="no" details="" size="16760" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.37.Final/netty-buffer-4.0.37.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="138146" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-buffer\srcs\netty-buffer-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.37.Final/netty-buffer-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607140753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<metadata-artifact status="no" details="" size="15327" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-common\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.37.Final/netty-common-4.0.37.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="337156" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\io.netty\netty-common\srcs\netty-common-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.37.Final/netty-common-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.19.0-GA" status="release" pubdate="20150107083500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3108" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.javassist\javassist\ivy-3.19.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.19.0-GA" rev-constraint-default="3.19.0-GA" rev-constraint-dynamic="3.19.0-GA" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="519277" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.javassist\javassist\srcs\javassist-3.19.0-GA-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reflections" name="reflections">
+			<revision name="0.9.8" status="release" pubdate="20120525005140" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/reflections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="3765" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.reflections\reflections\ivy-0.9.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reflections/reflections/0.9.8/reflections-0.9.8.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.9.8" rev-constraint-default="0.9.8" rev-constraint-dynamic="0.9.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="reflections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43272" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.reflections\reflections\srcs\reflections-0.9.8-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/reflections/reflections/0.9.8/reflections-0.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.11.0" status="release" pubdate="20130221015006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4305" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\xerces\xercesImpl\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2081596" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\xerces\xercesImpl\srcs\xercesImpl-2.11.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.4.01" status="release" pubdate="20110820054111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
+				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
+				<metadata-artifact status="no" details="" size="3163" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\xml-apis\xml-apis\ivy-1.4.01.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.4.01" rev-constraint-default="1.4.01" rev-constraint-dynamic="1.4.01" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="656529" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\xml-apis\xml-apis\srcs\xml-apis-1.4.01-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.woden" name="woden-impl-dom">
+			<revision name="1.0M9" status="release" pubdate="20110210225212" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="5114" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-impl-dom\ivy-1.0M9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/woden/woden-impl-dom/1.0M9/woden-impl-dom-1.0M9.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0M9" rev-constraint-default="1.0M9" rev-constraint-dynamic="1.0M9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="woden-impl-dom" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39230" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-impl-dom\srcs\woden-impl-dom-1.0M9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/woden/woden-impl-dom/1.0M9/woden-impl-dom-1.0M9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.spec.javax.transaction" name="jboss-transaction-api_1.2_spec">
+			<revision name="1.0.0.Final" status="release" pubdate="20131009011408" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Common Development and Distribution License" url="http://repository.jboss.org/licenses/cddl.txt"/>
+				<license name="GNU General Public License, Version 2 with the Classpath Exception" url="http://repository.jboss.org/licenses/gpl-2.0-ce.txt"/>
+				<metadata-artifact status="no" details="" size="8431" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\ivy-1.0.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.0.Final" rev-constraint-default="1.0.0.Final" rev-constraint-dynamic="1.0.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jboss-transaction-api_1.2_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20822" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\srcs\jboss-transaction-api_1.2_spec-1.0.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.1" status="release" pubdate="20111115125705" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="7865" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="393048" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.commons\commons-lang3\srcs\commons-lang3-3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.rogers.ute.universal-logging" name="universal-logging-akka_2.11">
+			<revision name="0.0.6" status="release" pubdate="20160224105849" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="3486" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute.universal-logging\universal-logging-akka_2.11\ivy-0.0.6.xml" searched="false" origin-is-local="false" origin-location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/universal-logging/universal-logging-akka_2.11/0.0.6/universal-logging-akka_2.11-0.0.6.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.0.6" rev-constraint-default="0.0.6" rev-constraint-dynamic="0.0.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="universal-logging-akka_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1595" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.rogers.ute.universal-logging\universal-logging-akka_2.11\srcs\universal-logging-akka_2.11-0.0.6-sources.jar">
+						<origin-location is-local="false" location="http://10.16.91.11:8080/nexus/content/repositories/releases/com/rogers/ute/universal-logging/universal-logging-akka_2.11/0.0.6/universal-logging-akka_2.11-0.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.4" status="release" pubdate="20140630173100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="327598" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502202400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140826001800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<metadata-artifact status="no" details="" size="5821" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.google.guava\guava\ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1277909" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.google.guava\guava\srcs\guava-18.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150327022000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<metadata-artifact status="no" details="" size="4881" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.3" status="release" pubdate="20150324163100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="9902" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="217957" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20080831171523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<metadata-artifact status="no" details="" size="3768" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\dom4j\dom4j\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="dom4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="432186" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\dom4j\dom4j\srcs\dom4j-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.3" status="release" pubdate="20150324163000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
+				<metadata-artifact status="no" details="" size="8940" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385981" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\ch.qos.logback\logback-core\srcs\logback-core-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.woodstox" name="wstx-asl">
+			<revision name="3.2.9" status="release" pubdate="20090508090014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://woodstox.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2634" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.codehaus.woodstox\wstx-asl\ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="wstx-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641391" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.codehaus.woodstox\wstx-asl\srcs\wstx-asl-3.2.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/woodstox/wstx-asl/3.2.9/wstx-asl-3.2.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-javamail_1.4_spec">
+			<revision name="1.7.1" status="release" pubdate="20100611064617" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://geronimo.apache.org/maven/${siteId}/${version}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="6680" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-javamail_1.4_spec\ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="geronimo-javamail_1.4_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266130" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-javamail_1.4_spec\srcs\geronimo-javamail_1.4_spec-1.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.specs" name="geronimo-activation_1.1_spec">
+			<revision name="1.1" status="release" pubdate="20100422070016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://geronimo.apache.org/maven/${siteId}/${version}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<metadata-artifact status="no" details="" size="6285" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-activation_1.1_spec\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="geronimo-activation_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35100" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.geronimo.specs\geronimo-activation_1.1_spec\srcs\geronimo-activation_1.1_spec-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-constants">
+			<revision name="0.9.0" status="release" pubdate="20150831094303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-constants" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-constants\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jnr-constants" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130028" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\com.github.jnr\jnr-constants\srcs\jnr-constants-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221092700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="9948" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-codec\commons-codec\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.woden" name="woden-impl-commons">
+			<revision name="1.0M9" status="release" pubdate="20110210225041" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="5150" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-impl-commons\ivy-1.0M9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/woden/woden-impl-commons/1.0M9/woden-impl-commons-1.0M9.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0M9" rev-constraint-default="1.0M9" rev-constraint-dynamic="1.0M9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="woden-impl-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="196076" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-impl-commons\srcs\woden-impl-commons-1.0M9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/woden/woden-impl-commons/1.0M9/woden-impl-commons-1.0M9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20151123130402" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<metadata-artifact status="no" details="" size="4089" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="file:////C:/dev/typesafe-activator-1.3.7/activator-dist-1.3.7/repository/commons-logging/commons-logging/1.1.1/ivys/ivy.xml"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.3" status="release" pubdate="20080831171537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<metadata-artifact status="no" details="" size="2220" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.servlet\servlet-api\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="124718" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\javax.servlet\servlet-api\srcs\servlet-api-2.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.3/servlet-api-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.woden" name="woden-api">
+			<revision name="1.0M9" status="release" pubdate="20110210224851" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<metadata-artifact status="no" details="" size="4280" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-api\ivy-1.0M9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/woden/woden-api/1.0M9/woden-api-1.0M9.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0M9" rev-constraint-default="1.0M9" rev-constraint-dynamic="1.0M9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="woden-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="234331" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.woden\woden-api\srcs\woden-api-1.0M9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/woden/woden-api/1.0M9/woden-api-1.0M9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ws.commons.schema" name="XmlSchema">
+			<revision name="1.4.7" status="release" pubdate="20100923030241" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ws.apache.org/commons/XmlSchema" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3819" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.schema\XmlSchema\ivy-1.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/ws/commons/schema/XmlSchema/1.4.7/XmlSchema-1.4.7.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.4.7" rev-constraint-default="1.4.7" rev-constraint-dynamic="1.4.7" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="XmlSchema" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="145764" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.apache.ws.commons.schema\XmlSchema\srcs\XmlSchema-1.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/ws/commons/schema/XmlSchema/1.4.7/XmlSchema-1.4.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="4.0.3.RELEASE" status="release" pubdate="20140327012732" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4577" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-context\ivy-4.0.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.3.RELEASE" rev-constraint-default="4.0.3.RELEASE" rev-constraint-dynamic="4.0.3.RELEASE" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-context" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="900787" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-context\srcs\spring-context-4.0.3.RELEASE-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="4.0.3.RELEASE" status="release" pubdate="20140327105459" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-beans\ivy-4.0.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.3.RELEASE" rev-constraint-default="4.0.3.RELEASE" rev-constraint-dynamic="4.0.3.RELEASE" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-beans" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="567353" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-beans\srcs\spring-beans-4.0.3.RELEASE-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="4.0.3.RELEASE" status="release" pubdate="20140327105505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2984" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-core\ivy-4.0.3.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0.3.RELEASE" rev-constraint-default="4.0.3.RELEASE" rev-constraint-dynamic="4.0.3.RELEASE" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="622166" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\org.springframework\spring-core\srcs\spring-core-4.0.3.RELEASE-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816230100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6445" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="com.rogers.ute" name="ute-hhhistory-svc$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="718287" time="0" location="C:\Users\Priya.Samarasa\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.rogers.ute"
+		module="ute-hhhistory-svc_2.11"
+		revision="0.1-SNAPSHOT"
+		status="integration"
+		publication="20161229071500"
+	>
+		<description>
+		ute-hhhistory-svc
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="ute-hhhistory-svc_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="ute-hhhistory-svc_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="ute-hhhistory-svc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="ute-hhhistory-svc_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
+		<dependency org="org.mockito" name="mockito-all" rev="1.10.19" conf="test->default(compile)"/>
+		<dependency org="org.cassandraunit" name="cassandra-unit" rev="3.0.0.1" conf="test->default(compile)"/>
+		<dependency org="com.sun.xml.ws" name="jaxws-rt" rev="2.2.8" conf="test->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-java8-compat_2.11" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="com.datastax.cassandra" name="cassandra-driver-core" rev="3.1.0" conf="compile->default(compile)"/>
+		<dependency org="com.datastax.cassandra" name="cassandra-driver-mapping" rev="3.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.3.6.Final" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.8.1" conf="compile->default(compile)"/>
+		<dependency org="com.rogers.ute.universal-logging" name="universal-logging-core_2.11" rev="0.1.6" conf="compile->default(compile)"/>
+		<dependency org="com.rogers.ute" name="ute-commons_2.11" rev="0.3.11" conf="compile->default(compile)"/>
+		<dependency org="com.rogers.ute" name="resp-esb-client-jar_2.11" rev="3.2.1" conf="compile->default(compile)"/>
+		<dependency org="com.rogers.ute" name="async-soap-client_2.11" rev="0.3.5" conf="compile->default(compile)"/>
+		<dependency org="com.rogers.ute" name="ute-billing-account-service_2.11" rev="0.1.10-SNAPSHOT" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
